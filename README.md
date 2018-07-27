@@ -82,6 +82,33 @@ pip install powerline-status --user
 sudo easy_install pip
 ```
 
+如果报这个错误
+
+```bash
+Searching for pip
+Reading https://pypi.python.org/simple/pip/
+Download error on https://pypi.python.org/simple/pip/: [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:590) -- Some packages may not be found!
+Couldn't find index page for 'pip' (maybe misspelled?)
+Scanning index of all packages (this may take a while)
+Reading https://pypi.python.org/simple/
+Download error on https://pypi.python.org/simple/: [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:590) -- Some packages may not be found!
+No local packages or download links found for pip
+error: Could not find suitable distribution for Requirement.parse('pip')
+```
+只需要运行这个就可以：
+
+```bash
+curl https://bootstrap.pypa.io/get-pip.py | python3
+
+```
+
+安装完成查看pip版本：
+
+```bash
+pip --version
+```
+
+
 安装后再次执行安装powerline的命令即可。
 
 ![ImageInitIterm](https://raw.githubusercontent.com/sirius1024/pubimgs/master/blogs/iterm2/4.png)
