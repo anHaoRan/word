@@ -7,7 +7,7 @@
 
 ![ImageInitIterm](https://raw.githubusercontent.com/sirius1024/pubimgs/master/blogs/iterm2/14.png)
 
-本文严重抄袭自：https://www.jianshu.com/p/7de00c73a2bb
+本文严重抄袭自：https://www.jianshu.com/p/7de00c73a2bb  和 https://github.com/sirius1024/iterm2-with-oh-my-zsh
 
 因排版和原文中的一些bug，参照搜索引擎和原文有了本篇文章。
 
